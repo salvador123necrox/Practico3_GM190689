@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarAutoActivity"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="12dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marca del automovil"/>
+
+            <Spinner
+                android:id="@+id/spMarca"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modelo del automovil"/>
+
+            <EditText
+                android:id="@+id/etModelo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Ingrese el modelo"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de automovil"/>
+
+            <Spinner
+                android:id="@+id/spTipoAuto"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Color del automovil"/>
+
+            <Spinner
+                android:id="@+id/spColor"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vin del automovil"/>
+
+            <EditText
+                android:id="@+id/etVin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Ingrese el numero de vin"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chasis del automovil"/>
+
+            <EditText
+                android:id="@+id/etChasis"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Ingrese el numero de chasis"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero de motor del automovil"/>
+
+            <EditText
+                android:id="@+id/etNumeroMotor"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Ingrese el numero del motor"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero de asientos del automovil"/>
+
+            <EditText
+                android:id="@+id/etNumeroAsientos"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:hint="Ingrese el numero de asientos"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Año del automovil"/>
+
+            <EditText
+                android:id="@+id/etAnio"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:hint="Ingrese el año del automovil"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cpacidad de asientos del automovil"/>
+
+            <EditText
+                android:id="@+id/etCapacidadAsientos"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:hint="Ingrese la capadidad de asientos"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio del automovil"/>
+
+            <EditText
+                android:id="@+id/etPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="numberDecimal"
+                android:hint="Ingrese el precio de asientos"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripcion del automovil"/>
+
+            <EditText
+                android:id="@+id/etDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Ingrese una descripcion del automovil"/>
+
+            <Button
+                android:id="@+id/btnAgregar"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Agregar"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btnRegresar"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

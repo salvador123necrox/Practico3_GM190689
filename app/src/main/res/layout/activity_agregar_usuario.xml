@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarUsuarioActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombres"/>
+
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingrese los nombres del usuario"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellidos"/>
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingrese los apellidos del usuario"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de usuario"/>
+
+    <Spinner
+        android:id="@+id/spTipoUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:spinnerMode="dialog"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingrese el email del usuario"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario"/>
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingrese el nombre de usuario"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ingrese la contraseña del usuario"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
